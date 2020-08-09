@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_buttons",
+  "info": {
+    "name": "Button",
+    "icon": "hand-point-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    }
+  }
+}

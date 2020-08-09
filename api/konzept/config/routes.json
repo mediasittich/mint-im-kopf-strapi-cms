@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/konzept",
+      "handler": "konzept.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/konzept",
+      "handler": "konzept.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/konzept",
+      "handler": "konzept.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_list_list_items",
+  "info": {
+    "name": "List_Item",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

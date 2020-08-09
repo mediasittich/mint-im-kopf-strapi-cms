@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_list_image_lists",
+  "info": {
+    "name": "Image_List",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "List_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list-item"
+    }
+  }
+}

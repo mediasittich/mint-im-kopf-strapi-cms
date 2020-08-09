@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_intro_texts",
+  "info": {
+    "name": "Intro_Text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

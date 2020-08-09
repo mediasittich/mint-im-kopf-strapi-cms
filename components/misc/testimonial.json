@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_misc_testimonials",
+  "info": {
+    "name": "Testimonial",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Quote": {
+      "type": "richtext"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

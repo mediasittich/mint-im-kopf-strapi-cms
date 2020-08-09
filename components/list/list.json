@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_lists",
+  "info": {
+    "name": "Simple_List",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list-item"
+    }
+  }
+}

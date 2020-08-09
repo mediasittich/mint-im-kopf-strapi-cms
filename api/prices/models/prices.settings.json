@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "prices",
+  "info": {
+    "name": "Preise"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

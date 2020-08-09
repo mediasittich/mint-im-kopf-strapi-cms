@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

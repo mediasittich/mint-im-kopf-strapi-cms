@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "impressums",
+  "info": {
+    "name": "Impressum"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

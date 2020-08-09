@@ -11,6 +11,14 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "Price_tag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "misc.price-tag"
     }
   }
 }

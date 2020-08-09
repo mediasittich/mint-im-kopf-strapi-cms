@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_misc_price_tags",
+  "info": {
+    "name": "Price_tag",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

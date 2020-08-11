@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "reviews"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "review_list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review-list-item"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_review_list_items",
+  "info": {
+    "name": "review_list_item",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

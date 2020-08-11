@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "pricings",
+  "collectionName": "kontakts",
   "info": {
-    "name": "preise"
+    "name": "kontakt"
   },
   "options": {
     "increments": true,
@@ -15,10 +15,14 @@
     "description": {
       "type": "richtext"
     },
-    "pricing_list_item": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.pricing-list-item"
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "form_url": {
+      "type": "string"
     }
   }
 }

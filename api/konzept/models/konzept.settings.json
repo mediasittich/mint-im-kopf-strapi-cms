@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "konzepts",
+  "info": {
+    "name": "konzept"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "feature_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "features_list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.features-list-item"
+    }
+  }
+}

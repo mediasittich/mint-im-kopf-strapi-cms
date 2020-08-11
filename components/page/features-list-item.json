@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_features_list_items",
+  "info": {
+    "name": "features_list_item",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -28,6 +28,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "site_author": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

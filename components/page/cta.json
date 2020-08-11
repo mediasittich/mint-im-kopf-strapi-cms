@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_ctas",
+  "info": {
+    "name": "cta",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    }
+  }
+}

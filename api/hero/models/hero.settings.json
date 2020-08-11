@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "name": "hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bg_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.cta"
+    }
+  }
+}

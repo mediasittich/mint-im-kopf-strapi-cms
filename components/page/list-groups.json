@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_list_groups",
+  "info": {
+    "name": "list_groups",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "group_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "list_group_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-group-item"
+    }
+  }
+}

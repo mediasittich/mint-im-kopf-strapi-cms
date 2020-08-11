@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "leistungens",
+  "info": {
+    "name": "Leistungen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "list_groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-groups"
+    }
+  }
+}

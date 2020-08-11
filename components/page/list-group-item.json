@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_list_group_items",
+  "info": {
+    "name": "list_group_item",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

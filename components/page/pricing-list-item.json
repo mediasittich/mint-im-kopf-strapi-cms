@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_pricing_list_items",
+  "info": {
+    "name": "pricing_list_item",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.description-item"
+    }
+  }
+}

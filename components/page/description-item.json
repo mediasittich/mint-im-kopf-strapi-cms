@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_description_items",
+  "info": {
+    "name": "description_item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

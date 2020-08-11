@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "seos",
+  "info": {
+    "name": "seo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "site_title": {
+      "type": "string"
+    },
+    "site_description": {
+      "type": "text"
+    },
+    "site_url": {
+      "type": "string"
+    },
+    "site_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

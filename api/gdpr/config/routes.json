@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gdpr",
+      "handler": "gdpr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gdpr",
+      "handler": "gdpr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gdpr",
+      "handler": "gdpr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
